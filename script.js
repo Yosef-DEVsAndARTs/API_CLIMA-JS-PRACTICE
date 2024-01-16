@@ -32,10 +32,10 @@ function mostrarDatosClima(data){
     ciudadTitulo.textContent = `${ciudadNombre}, ${paisNombre}`
     
     const temperaturaInfo = document.createElement ('p')
-    temperaturaInfo.textContent = `La temperatura es: ${Math.floor(temperature-difkelvin)}°C`
+    temperaturaInfo.textContent = `La temperatura es ${Math.floor(temperature-difkelvin)}°C`
    
     const humedadInfo = document.createElement ('p')
-    humedadInfo.textContent = `Humedad del: ${humidity}%`
+    humedadInfo.textContent = `Humedad del ${humidity}%`
     
     const iconoInfo= document.createElement ('img')
     iconoInfo.src= `https://openweathermap.org/img/wn/${icono}@2x.png`
